@@ -1,0 +1,50 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 35e1477e-62ea-4d49-ad49-76f17622d108 # Company Info
+handle: fieldLogo
+instructions: null
+name: Logo
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowSubfolders: false
+  allowUploads: true
+  allowedKinds:
+    - JPG/JPEG
+    - png
+  branchLimit: null
+  defaultUploadLocationSource: 'volume:8dae5110-8a0a-4593-9ddf-26d3225f6081' # Images
+  defaultUploadLocationSubpath: null
+  localizeRelations: false
+  maintainHierarchy: false
+  maxRelations: 1
+  minRelations: null
+  previewMode: full
+  restrictFiles: true
+  restrictLocation: false
+  restrictedDefaultUploadSubpath: null
+  restrictedLocationSource: 'volume:8dae5110-8a0a-4593-9ddf-26d3225f6081' # Images
+  restrictedLocationSubpath: null
+  selectionCondition:
+    __assoc__:
+      -
+        - elementType
+        - craft\elements\Asset
+      -
+        - fieldContext
+        - global
+      -
+        - class
+        - craft\elements\conditions\assets\AssetCondition
+  selectionLabel: null
+  showSiteMenu: false
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  sources:
+    - 'volume:8dae5110-8a0a-4593-9ddf-26d3225f6081' # Images
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

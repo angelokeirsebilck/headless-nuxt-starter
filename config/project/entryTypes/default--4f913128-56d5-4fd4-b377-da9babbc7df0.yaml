@@ -1,0 +1,59 @@
+fieldLayouts:
+  df653297-8c61-4826-92ca-07444b37cc59:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 7b76be03-35ee-4a76-afaf-74f2c7aa5d11
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 97e9e22c-8499-4ee6-8fa5-f6916d29a324 # Cta Content
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7e823ad3-d559-46e7-80fa-cb5ce7b917ca
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 250741da-c4ba-4a82-babc-2e99aeb50e4d
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: e6f21a54-5b02-4004-aab5-727af542f4cc # Cta
+showStatusField: false
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{fieldCtaContent.itemTitle|truncate(50)}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

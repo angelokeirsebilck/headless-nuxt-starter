@@ -1,0 +1,173 @@
+fieldLayouts:
+  a065c547-74be-446e-87c9-ede3c32d67e7:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: ed77c6d0-d171-4d96-8a18-b815ce87c1ab
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ad1e80b8-bd93-4f15-8eaf-a6179cedd873 # E-mail
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 463b4b92-abbb-4000-903c-3de48525fe51
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 16b1277a-b80a-4551-a8af-a5643a6ac620 # Tel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a351a3e5-3f35-49d2-866d-fa91774e41a2
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: c84a707c-0acd-401a-9894-c02e7add6570 # Fax
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3fe1d887-19d4-4b99-bd64-9d6e789eda1a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 8fea37d7-2e11-4a6c-9da3-c655ac9c6134 # VAT
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e9538d01-cbee-4467-a1a5-84b2a2103778
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            heading: Address
+            type: craft\fieldlayoutelements\Heading
+            uid: b15ef43f-5753-4f1e-850d-01d3a25e5622
+            userCondition: null
+          -
+            elementCondition: null
+            fieldUid: 8a19ab7e-05c9-4f56-8806-2b7866afdd95 # Address Line 1
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c0ecac00-d2ea-4639-b1c4-ccbf27f86701
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: ae9d8d7d-d348-4dbd-b0f2-7373e6d48e9c # Address Line 2
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e5142fd1-3cb5-45d3-89ed-6e8023cda3ed
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 62db7f18-9a51-40cd-95d5-5ab9ccc18983 # Address Line 3
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 846c2191-f00a-423a-a1bb-dd1501207d14
+            userCondition: null
+            warning: null
+            width: 50
+        name: General
+        uid: 8d8e267f-85e6-42ba-8c32-3e48e9dfc484
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: ac09d08c-f99f-4189-9839-124618c7cbba # Socials
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d8b217bd-a8e8-4fac-a21a-e50959eb7d65
+            userCondition: null
+            warning: null
+            width: 100
+        name: Socials
+        uid: bc911888-5045-406d-915e-b592e46e7c41
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 953d1a64-6adc-4c6f-8fc3-3fe8580b4943 # Logo
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aad108db-c7f2-44ce-9169-a66aaaa33cd2
+            userCondition: null
+            warning: null
+            width: 25
+        name: Logo
+        uid: cd9fc123-bbab-4db0-8be3-6cd3806bcd9c
+        userCondition: null
+handle: globalCompanyInfo
+hasTitleField: false
+name: 'Company Info'
+section: 33a43470-f56d-4405-b8b8-6c964b2515d8 # Company Info
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

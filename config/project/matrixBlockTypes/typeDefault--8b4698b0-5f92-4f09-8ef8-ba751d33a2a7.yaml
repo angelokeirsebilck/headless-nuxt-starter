@@ -1,0 +1,240 @@
+field: 4f46c591-9460-4156-8c3d-635e0e7cb507 # Content Builder
+fieldLayouts:
+  2b0925b7-d075-4846-a85d-b4556a2b9213:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b56eb3ea-0b5b-43bd-aa69-3aab5598f1eb # Default Columns
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 90ebc4db-0759-4889-9748-cabf83584954
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7e41897e-9078-4388-b05f-a377c092fe51 # Background Color
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d50a418f-b9bd-4e59-bd62-ecd4ad89cfc1
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 8c078cb7-793a-4aa1-92b8-e6354725b8f2 # Block Spacing Top
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 790f2d9f-0db6-4e44-af41-fb8a051c301b
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 672aea40-8bb7-4380-8e50-c063e223347a # Block Spacing Bottom
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9546b48f-5ace-4685-824a-e480a6f7761b
+            userCondition: null
+            warning: null
+            width: 25
+        name: Content
+        uid: 52420d55-302c-41a0-81e1-26ae55e98638
+        userCondition: null
+fields:
+  7e41897e-9078-4388-b05f-a377c092fe51: # Background Color
+    columnSuffix: tsyyujxh
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemBgColor
+    instructions: null
+    name: 'Background Color'
+    searchable: false
+    settings:
+      columnType: string
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - bg-beige
+            -
+              - default
+              - true
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - bg-prim
+    translationKeyFormat: null
+    translationMethod: none
+    type: custommodule\fields\BackgroundColor
+  8c078cb7-793a-4aa1-92b8-e6354725b8f2: # Block Spacing Top
+    columnSuffix: zyerlbgq
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemBlockSpacingTop
+    instructions: null
+    name: 'Block Spacing Top'
+    searchable: false
+    settings:
+      columnType: string
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+            -
+              - default
+              - true
+        -
+          __assoc__:
+            -
+              - label
+              - 'Extra Small'
+            -
+              - value
+              - extraSmall
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - small
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - large
+        -
+          __assoc__:
+            -
+              - label
+              - Zero
+            -
+              - value
+              - zero
+    translationKeyFormat: null
+    translationMethod: none
+    type: custommodule\fields\BlockSpacing
+  672aea40-8bb7-4380-8e50-c063e223347a: # Block Spacing Bottom
+    columnSuffix: sfwnrzln
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemBlockSpacingBottom
+    instructions: null
+    name: 'Block Spacing Bottom'
+    searchable: false
+    settings:
+      columnType: string
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+            -
+              - default
+              - true
+        -
+          __assoc__:
+            -
+              - label
+              - 'Extra Small'
+            -
+              - value
+              - extraSmall
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - small
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - large
+        -
+          __assoc__:
+            -
+              - label
+              - Zero
+            -
+              - value
+              - zero
+    translationKeyFormat: null
+    translationMethod: none
+    type: custommodule\fields\BlockSpacing
+  b56eb3ea-0b5b-43bd-aa69-3aab5598f1eb: # Default Columns
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemDefaultColumns
+    instructions: null
+    name: 'Default Columns'
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 419763221
+      columns:
+        __assoc__:
+          -
+            - efe60f4b-8305-42d0-8058-e9cc9d9be104 # Column
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_14_itemdefaultcolumns}}'
+      fieldLayout: row
+      maxRows: 2
+      minRows: 1
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+handle: typeDefault
+name: Default
+sortOrder: 2

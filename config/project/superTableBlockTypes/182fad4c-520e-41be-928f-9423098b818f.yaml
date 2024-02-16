@@ -1,0 +1,109 @@
+changedFieldIndicator: 36270982
+field: 89fc2c4d-0d0d-47ff-8c69-0d6ea0f7567b # Columns
+fieldLayouts:
+  e1750ccb-7994-4b7d-b21f-423014d3eedd:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4e9fd425-b957-4ff3-be4a-5938b9f22715 # Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cc54ab3d-4a9e-4b59-9f12-ce7f9a12c61b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 92a9354a-97d8-44ee-8dd2-b3c737e333c9 # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 07f8cc69-3fe4-403a-b39d-777300a5f905
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7a9a7bc1-d075-4162-a4d6-e98b490ac40c # Links
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cafb251c-9b04-4a51-8f25-0666511fc4ee
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f87c82f2-3aff-42ad-a899-5dc8f0927c79
+        userCondition: null
+fields:
+  4e9fd425-b957-4ff3-be4a-5938b9f22715: # Title
+    columnSuffix: fryywwnh
+    contentColumnType: text
+    fieldGroup: null
+    handle: itemTitle
+    instructions: null
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+  7a9a7bc1-d075-4162-a4d6-e98b490ac40c: # Links
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemLinks
+    instructions: null
+    name: Links
+    searchable: false
+    settings:
+      contentTable: '{{%matrixcontent_itemlinks}}'
+      maxBlocks: null
+      minBlocks: null
+      propagationKeyFormat: null
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix
+  92a9354a-97d8-44ee-8dd2-b3c737e333c9: # Text
+    columnSuffix: yrzjikki
+    contentColumnType: text
+    fieldGroup: null
+    handle: itemText
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      ckeConfig: 8b8e734f-8752-481e-9aa9-fec95fe36ba6 # Default
+      columnType: text
+      defaultTransform: null
+      enableSourceEditingForNonAdmins: false
+      purifierConfig: null
+      purifyHtml: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      showWordCount: false
+      wordLimit: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\ckeditor\Field

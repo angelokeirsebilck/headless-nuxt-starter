@@ -1,0 +1,394 @@
+data:
+  dataRetention: forever
+  dataRetentionValue: ''
+  fileUploadsAction: retain
+  notifications:
+    -
+      attachAssets: null
+      attachFiles: true
+      attachPdf: ''
+      bcc: null
+      cc: null
+      conditions:
+        conditionRule: all
+        sendRule: send
+      content: '[{"type":"paragraph","attrs":{"textAlign":"start"},"content":[{"type":"text","text":"Thanks again for contacting us. Our team will get back to you as soon as we can."}]},{"type":"paragraph","attrs":{"textAlign":"start"},"content":[{"type":"text","text":"As a reminder, you submitted the following details at "},{"type":"variableTag","attrs":{"label":"Timestamp (yyyy-mm-dd hh:mm:ss)","value":"{timestamp}"}}]},{"type":"paragraph","attrs":{"textAlign":"start"},"content":[{"type":"variableTag","attrs":{"label":"All Form Fields","value":"{allFields}"}}]}]'
+      enableConditions: false
+      enabled: true
+      formId: null
+      from: null
+      fromName: null
+      id: stencilb7VHjhLUz3PHGkGI
+      name: 'User Notification'
+      pdfTemplateId: null
+      recipients: email
+      replyTo: null
+      replyToName: null
+      sender: null
+      subject: 'Thanks for contacting us!'
+      templateId: null
+      to: '{field.eMailAddress}'
+      uid: null
+    -
+      attachAssets: null
+      attachFiles: true
+      attachPdf: ''
+      bcc: null
+      cc: null
+      conditions:
+        conditionRule: all
+        sendRule: send
+      content: '[{"type":"paragraph","attrs":{"textAlign":"start"},"content":[{"type":"text","text":"A user submission has been made on the \""},{"type":"variableTag","attrs":{"label":"Form Name","value":"{formName}"}},{"type":"text","text":"\" form on "},{"type":"variableTag","attrs":{"label":"Site Name","value":"{siteName}"}},{"type":"text","text":" at "},{"type":"variableTag","attrs":{"label":"Timestamp (yyyy-mm-dd hh:mm:ss)","value":"{timestamp}"}}]},{"type":"paragraph","attrs":{"textAlign":"start"},"content":[{"type":"text","text":"Their submission details are:"}]},{"type":"paragraph","attrs":{"textAlign":"start"},"content":[{"type":"variableTag","attrs":{"label":"All Form Fields","value":"{allFields}"}}]}]'
+      enableConditions: false
+      enabled: true
+      formId: null
+      from: null
+      fromName: null
+      id: stencil2Ug0fLcP60q0VVjG
+      name: 'Admin Notification'
+      pdfTemplateId: null
+      recipients: email
+      replyTo: '{field.emailAddress}'
+      replyToName: null
+      sender: null
+      subject: 'A new submission was made on "{formName}"'
+      templateId: null
+      to: '{systemEmail}'
+      uid: null
+  pages:
+    -
+      id: new1943860916
+      label: 'Page 1'
+      notificationFlag: true
+      rows:
+        -
+          fields:
+            -
+              brandNewField: false
+              columnWidth: 12
+              handle: singleLine
+              hasLabel: true
+              id: new1075192408
+              label: 'Single Line'
+              settings:
+                handle: singleLine
+                instructionsPosition: ''
+                label: 'Single Line'
+                labelPosition: ''
+                maxType: characters
+                minType: characters
+                required: true
+                visibility: ''
+              type: verbb\formie\fields\formfields\SingleLineText
+              vid: new6244-5801
+          id: new9158-9741
+        -
+          fields:
+            -
+              brandNewField: false
+              columnWidth: 12
+              handle: multiLine
+              hasLabel: true
+              id: new1669079998
+              isNested: false
+              label: 'Multi Line'
+              settings:
+                handle: multiLine
+                instructionsPosition: ''
+                label: 'Multi Line'
+                labelPosition: ''
+                maxType: characters
+                minType: characters
+                richTextButtons:
+                  - bold
+                  - italic
+                visibility: ''
+              type: verbb\formie\fields\formfields\MultiLineText
+              vid: new7281-3857
+          id: new1455-5556
+        -
+          fields:
+            -
+              brandNewField: false
+              columnWidth: 12
+              handle: eMailAddress
+              hasLabel: true
+              id: new357121514
+              isNested: false
+              label: 'E-mail Address'
+              settings:
+                handle: eMailAddress
+                instructionsPosition: ''
+                label: 'E-mail Address'
+                labelPosition: ''
+                required: true
+                visibility: ''
+              type: verbb\formie\fields\formfields\Email
+              vid: new2871-2287
+          id: new117-6056
+        -
+          fields:
+            -
+              brandNewField: false
+              columnWidth: 12
+              handle: phoneNumber
+              hasLabel: true
+              id: new1855617124
+              isNested: false
+              label: 'Phone Number'
+              settings:
+                countryCollapsed: true
+                countryDefaultValue: ''
+                countryEnabled: false
+                countryShowDialCode: true
+                handle: phoneNumber
+                instructionsPosition: ''
+                label: 'Phone Number'
+                labelPosition: ''
+                required: true
+                visibility: ''
+              type: verbb\formie\fields\formfields\Phone
+              vid: new1588-7749
+          id: new9799-5333
+        -
+          fields:
+            -
+              brandNewField: false
+              columnWidth: 12
+              handle: checkboxesVertical
+              hasLabel: true
+              id: new704392858
+              isNested: false
+              label: 'Checkboxes Vertical'
+              settings:
+                handle: checkboxesVertical
+                instructionsPosition: ''
+                label: 'Checkboxes Vertical'
+                labelPosition: ''
+                layout: vertical
+                options:
+                  -
+                    isDefault: false
+                    label: 'Option 1'
+                    value: 'Option 1'
+                  -
+                    isDefault: true
+                    label: 'Option 2'
+                    value: 'Option 2'
+                  -
+                    isDefault: false
+                    label: 'Option 3'
+                    value: 'Option 3'
+                required: true
+                toggleCheckbox: ''
+                visibility: ''
+              type: verbb\formie\fields\formfields\Checkboxes
+              vid: new8063-5567
+          id: new2025-1266
+        -
+          fields:
+            -
+              brandNewField: false
+              columnWidth: 12
+              handle: checkboxesHorizontal
+              hasLabel: true
+              id: new1085930800
+              isNested: false
+              label: 'Checkboxes Horizontal'
+              settings:
+                handle: checkboxesHorizontal
+                instructionsPosition: ''
+                label: 'Checkboxes Horizontal'
+                labelPosition: ''
+                layout: horizontal
+                options:
+                  -
+                    isDefault: true
+                    label: 'Option 1'
+                    value: 'Option 1'
+                  -
+                    isDefault: false
+                    label: 'Option 2'
+                    value: 'Option 2'
+                  -
+                    isDefault: false
+                    label: 'Option 3'
+                    value: 'Option 3'
+                required: true
+                toggleCheckbox: ''
+                visibility: ''
+              type: verbb\formie\fields\formfields\Checkboxes
+              vid: new3271-755
+          id: new5046-5869
+        -
+          fields:
+            -
+              brandNewField: false
+              columnWidth: 12
+              handle: dropdown
+              hasLabel: true
+              id: new1911274073
+              isNested: false
+              label: Dropdown
+              settings:
+                handle: dropdown
+                instructionsPosition: ''
+                label: Dropdown
+                labelPosition: ''
+                options:
+                  -
+                    isDefault: true
+                    isOptgroup: false
+                    label: 'Select an option'
+                    value: ''
+                  -
+                    isDefault: false
+                    isOptgroup: false
+                    label: 'Option 1'
+                    value: 'Option 1'
+                  -
+                    isDefault: false
+                    isOptgroup: false
+                    label: 'Option 2'
+                    value: 'Option 2'
+                  -
+                    isDefault: false
+                    isOptgroup: false
+                    label: 'Option 3'
+                    value: 'Option 3'
+                required: true
+                visibility: ''
+              type: verbb\formie\fields\formfields\Dropdown
+              vid: new3331-4664
+          id: new2841-4647
+        -
+          fields:
+            -
+              brandNewField: false
+              columnWidth: 12
+              handle: fileUpload
+              hasLabel: true
+              id: new638311371
+              isNested: false
+              label: 'File Upload'
+              settings:
+                allowedKinds:
+                  - image
+                  - pdf
+                handle: fileUpload
+                instructionsPosition: ''
+                label: 'File Upload'
+                labelPosition: ''
+                restrictFiles: true
+                uploadLocationSource: 'volume:8dae5110-8a0a-4593-9ddf-26d3225f6081' # Images
+                uploadLocationSubpath: ''
+                visibility: ''
+              type: verbb\formie\fields\formfields\FileUpload
+              vid: new9134-9164
+          id: new9001-8125
+        -
+          fields:
+            -
+              brandNewField: false
+              columnWidth: 12
+              handle: dropdownFromEntries
+              hasLabel: true
+              id: new1414629950
+              isNested: false
+              label: 'Dropdown From Entries'
+              settings:
+                displayType: dropdown
+                handle: dropdownFromEntries
+                instructionsPosition: ''
+                label: 'Dropdown From Entries'
+                labelPosition: ''
+                labelSource: title
+                orderBy: 'title ASC'
+                placeholder: 'Select an entry'
+                required: true
+                sources:
+                  - 'type:ad9f5000-91f6-4149-8b12-c09146c7e0ee' # Default
+                visibility: ''
+              type: verbb\formie\fields\formfields\Entries
+              vid: new4792-7623
+          id: new3051-3942
+        -
+          fields:
+            -
+              brandNewField: false
+              columnWidth: 12
+              handle: gdpr
+              hasLabel: true
+              id: new2111720440
+              isNested: false
+              label: Gdpr
+              settings:
+                checkedValue: 'Yes'
+                defaultValue: false
+                description: '[{"type":"paragraph","attrs":{"textAlign":"start"},"content":[{"type":"text","text":"I accept the privacy policy"}]}]'
+                handle: gdpr
+                instructionsPosition: ''
+                label: Gdpr
+                labelPosition: verbb\formie\positions\Hidden
+                uncheckedValue: 'No'
+              type: verbb\formie\fields\formfields\Agree
+              vid: new8782-8887
+          id: new6223-8321
+      settings:
+        backButtonLabel: Back
+        buttonsPosition: left
+        saveButtonLabel: Save
+        saveButtonStyle: link
+        showBackButton: false
+        submitButtonLabel: Submit
+      sortOrder: 0
+  settings:
+    collectIp: false
+    collectUser: false
+    dataRetention: null
+    dataRetentionValue: null
+    defaultEmailTemplateId: null
+    defaultInstructionsPosition: verbb\formie\positions\AboveInput
+    defaultLabelPosition: verbb\formie\positions\AboveInput
+    disableCaptchas: false
+    displayCurrentPageTitle: false
+    displayFormTitle: false
+    displayPageProgress: false
+    displayPageTabs: false
+    errorMessage: '[{"type":"paragraph","attrs":{"textAlign":"start"},"content":[{"type":"text","text":"Couldn’t save submission due to errors."}]}]'
+    errorMessagePosition: top-form
+    fileUploadsAction: null
+    limitSubmissions: false
+    limitSubmissionsMessage: '[{"type":"paragraph","attrs":{"textAlign":"start"}}]'
+    limitSubmissionsNumber: null
+    limitSubmissionsType: total
+    loadingIndicator: spinner
+    loadingIndicatorText: null
+    pageRedirectUrl: null
+    progressPosition: end
+    redirectUrl: null
+    requireUser: false
+    requireUserMessage: '[{"type":"paragraph","attrs":{"textAlign":"start"}}]'
+    scheduleForm: false
+    scheduleFormEnd: null
+    scheduleFormExpiredMessage: '[{"type":"paragraph","attrs":{"textAlign":"start"}}]'
+    scheduleFormPendingMessage: '[{"type":"paragraph","attrs":{"textAlign":"start"}}]'
+    scheduleFormStart: null
+    scrollToTop: true
+    submissionTitleFormat: '{timestamp}'
+    submitAction: message
+    submitActionFormHide: false
+    submitActionMessage: '[{"type":"paragraph","attrs":{"textAlign":"start"},"content":[{"type":"text","text":"Submission saved."}]}]'
+    submitActionMessagePosition: top-form
+    submitActionMessageTimeout: null
+    submitActionTab: null
+    submitActionUrl: null
+    submitMethod: page-reload
+    validationOnFocus: false
+    validationOnSubmit: true
+  userDeletedAction: retain
+defaultStatus: 6b8886c1-e4f0-41ac-bfc3-2c500a2a0bd5 # New
+handle: allFields
+name: 'All fields'
+submitActionEntry: null
+template: null

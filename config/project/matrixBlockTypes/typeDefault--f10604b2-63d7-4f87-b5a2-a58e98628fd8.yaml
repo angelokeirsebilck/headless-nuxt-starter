@@ -1,0 +1,330 @@
+field: 2e207509-edb4-42c7-98ae-c740ee2ab3e8 # Cta Style
+fieldLayouts:
+  58f0edf7-9d68-4448-809f-613182cc2297:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: d4262ab8-0f8a-4ad9-871b-ac5df4bd47e5 # Cta
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 62bf432c-53ac-40c4-a419-e2b9cb37d255
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 1ffa87ab-8903-4fb7-b1a5-1f21b91cc1d8 # Cta Link Style
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 982de717-9004-47a2-90c9-4a406a7df7a2
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 41e38b76-f286-4dc2-8de3-e195864ac278 # Background Color
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 82c3b5bf-3693-42a7-ac4d-0c0df5b2dd1c
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 3d95d134-283f-4bc4-86fc-dfd2e0ca9aac # Block Spacing Top
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 77c32fe9-c626-4dee-8364-4faa23c7ae5b
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 87ee9cbd-5579-4c17-910a-8f67c3b1a5d8 # Block Spacing Bottom
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 24e0edaa-1a4c-417e-aedb-952e78271252
+            userCondition: null
+            warning: null
+            width: 25
+        name: Content
+        uid: 2bdd2380-b2be-42c9-bb4d-6769b028a996
+        userCondition: null
+fields:
+  1ffa87ab-8903-4fb7-b1a5-1f21b91cc1d8: # Cta Link Style
+    columnSuffix: kjpvjfhh
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemCtaLinkStyle
+    instructions: null
+    name: 'Cta Link Style'
+    searchable: false
+    settings:
+      columnType: string
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default-Arrow
+            -
+              - value
+              - default-arrow
+            -
+              - default
+              - true
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+        -
+          __assoc__:
+            -
+              - label
+              - 'Default White'
+            -
+              - value
+              - default-white
+        -
+          __assoc__:
+            -
+              - label
+              - 'Default Arrow White'
+            -
+              - value
+              - default-arrow-white
+        -
+          __assoc__:
+            -
+              - label
+              - Outline
+            -
+              - value
+              - outline
+        -
+          __assoc__:
+            -
+              - label
+              - 'Outline White'
+            -
+              - value
+              - outline-white
+        -
+          __assoc__:
+            -
+              - label
+              - Simple
+            -
+              - value
+              - simple
+    translationKeyFormat: null
+    translationMethod: none
+    type: custommodule\fields\ButtonStyle
+  3d95d134-283f-4bc4-86fc-dfd2e0ca9aac: # Block Spacing Top
+    columnSuffix: edkbpjbk
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemBlockSpacingTop
+    instructions: null
+    name: 'Block Spacing Top'
+    searchable: false
+    settings:
+      columnType: string
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+            -
+              - default
+              - true
+        -
+          __assoc__:
+            -
+              - label
+              - 'Extra Small'
+            -
+              - value
+              - extraSmall
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - small
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - large
+        -
+          __assoc__:
+            -
+              - label
+              - Zero
+            -
+              - value
+              - zero
+    translationKeyFormat: null
+    translationMethod: none
+    type: custommodule\fields\BlockSpacing
+  41e38b76-f286-4dc2-8de3-e195864ac278: # Background Color
+    columnSuffix: wefvyplr
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemBgColor
+    instructions: null
+    name: 'Background Color'
+    searchable: false
+    settings:
+      columnType: string
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - bg-beige
+            -
+              - default
+              - true
+        -
+          __assoc__:
+            -
+              - label
+              - Primary
+            -
+              - value
+              - bg-prim
+    translationKeyFormat: null
+    translationMethod: none
+    type: custommodule\fields\BackgroundColor
+  87ee9cbd-5579-4c17-910a-8f67c3b1a5d8: # Block Spacing Bottom
+    columnSuffix: kmkkdosk
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemBlockSpacingBottom
+    instructions: null
+    name: 'Block Spacing Bottom'
+    searchable: false
+    settings:
+      columnType: string
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+            -
+              - default
+              - true
+        -
+          __assoc__:
+            -
+              - label
+              - 'Extra Small'
+            -
+              - value
+              - extraSmall
+        -
+          __assoc__:
+            -
+              - label
+              - Small
+            -
+              - value
+              - small
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - large
+        -
+          __assoc__:
+            -
+              - label
+              - Zero
+            -
+              - value
+              - zero
+    translationKeyFormat: null
+    translationMethod: none
+    type: custommodule\fields\BlockSpacing
+  d4262ab8-0f8a-4ad9-871b-ac5df4bd47e5: # Cta
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemCta
+    instructions: null
+    name: Cta
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      branchLimit: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: false
+      sources:
+        - 'section:e6f21a54-5b02-4004-aab5-727af542f4cc' # Cta
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: typeDefault
+name: Default
+sortOrder: 1

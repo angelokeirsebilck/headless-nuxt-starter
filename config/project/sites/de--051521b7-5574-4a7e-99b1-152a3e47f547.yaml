@@ -1,0 +1,9 @@
+baseUrl: '@nuxtUrl/de'
+enabled: $DE_ENABLED
+handle: de
+hasUrls: true
+language: de
+name: $DE_SITE_NAME
+primary: false
+siteGroup: 371b62a7-e041-4765-b26c-f72fad067dd9 # $GROUP_NAME
+sortOrder: 3

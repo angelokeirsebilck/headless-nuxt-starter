@@ -1,0 +1,51 @@
+field: 4f46c591-9460-4156-8c3d-635e0e7cb507 # Content Builder
+fieldLayouts:
+  eee55542-abd7-44a9-b073-c422e2406ba9:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 28c5424b-91bb-417d-b02d-2d1078ff798d # Cta
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 94f784c4-f316-4e8e-8c83-97c5da09aadb
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 88a2cf57-ff6a-411f-aab5-e70e3dc2575f
+        userCondition: null
+fields:
+  28c5424b-91bb-417d-b02d-2d1078ff798d: # Cta
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemCta
+    instructions: null
+    name: Cta
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      branchLimit: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      selectionLabel: null
+      showSiteMenu: false
+      sources:
+        - 'section:e6f21a54-5b02-4004-aab5-727af542f4cc' # Cta
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: typeCta
+name: Cta
+sortOrder: 3

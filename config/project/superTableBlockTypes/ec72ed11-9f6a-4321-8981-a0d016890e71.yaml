@@ -1,0 +1,123 @@
+changedFieldIndicator: 1794307485
+field: 97e9e22c-8499-4ee6-8fa5-f6916d29a324 # Cta Content
+fieldLayouts:
+  4fe424e5-52f6-43be-ae32-e53922519280:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 65e1daa2-d20a-41e1-ab31-f3a1bed550b4 # Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 486ef10c-8860-44cb-b327-96768e4217ad
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 657e2a02-f0b4-4b17-b119-5df460380521 # Link
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 773005a9-697c-40af-9625-274b7e1b64d7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ed738e53-3167-4a84-8afc-235e82ca7f50
+        userCondition: null
+fields:
+  65e1daa2-d20a-41e1-ab31-f3a1bed550b4: # Text
+    columnSuffix: nwxowkdq
+    contentColumnType: text
+    fieldGroup: null
+    handle: itemText
+    instructions: null
+    name: Text
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      ckeConfig: 8b8e734f-8752-481e-9aa9-fec95fe36ba6 # Default
+      columnType: text
+      defaultTransform: null
+      enableSourceEditingForNonAdmins: false
+      purifierConfig: null
+      purifyHtml: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      showWordCount: false
+      wordLimit: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\ckeditor\Field
+  657e2a02-f0b4-4b17-b119-5df460380521: # Link
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemLink
+    instructions: null
+    name: Link
+    searchable: false
+    settings:
+      allowCustomText: true
+      allowTarget: true
+      autoNoReferrer: true
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: entry
+      defaultText: ''
+      enableAllLinkTypes: false
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: true
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: true
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: site
+    type: lenz\linkfield\fields\LinkField

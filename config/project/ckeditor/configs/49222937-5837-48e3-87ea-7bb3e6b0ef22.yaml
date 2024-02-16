@@ -1,0 +1,18 @@
+headingLevels: false
+listPlugin: DocumentList
+name: Simple
+options:
+  link:
+    decorators:
+      openInNewTab:
+        attributes:
+          target: _blank
+        label: 'Open in a new tab'
+        mode: manual
+toolbar:
+  - heading
+  - '|'
+  - bold
+  - italic
+  - link
+  - sourceEditing

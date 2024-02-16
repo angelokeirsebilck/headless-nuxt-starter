@@ -1,0 +1,20 @@
+#ddev-generated
+version: "3.6"
+services:
+  redis:
+    container_name: ddev-${DDEV_SITENAME}-redis
+    image: redis:6
+    ports:
+      - "60123:6379"
+    # These labels ensure this service is discoverable by ddev.
+    labels:
+      com.ddev.site-name: ${DDEV_SITENAME}
+      com.ddev.approot: $DDEV_APPROOT
+    volumes:
+      - ".:/mnt/ddev_config"
+      - "./redis:/usr/local/etc/redis"
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+    environment:
+      - VIRTUAL_HOST=$DDEV_HOSTNAME
+      - HTTP_EXPOSE=6378:6379
+      - HTTPS_EXPOSE=6379:6379

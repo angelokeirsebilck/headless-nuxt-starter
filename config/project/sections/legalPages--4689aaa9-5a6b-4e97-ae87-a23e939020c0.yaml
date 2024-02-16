@@ -1,0 +1,42 @@
+defaultPlacement: end
+enableVersioning: true
+handle: legalPages
+name: 'Legal Pages'
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  051521b7-5574-4a7e-99b1-152a3e47f547: # $DE_SITE_NAME
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: '{slug}'
+  b6f6d186-5cd6-4c80-b9b4-79d4667ce02a: # $FR_SITE_NAME
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: '{slug}'
+  d8d509d1-cc9a-4a61-a77b-7769e7ae3b57: # $EN_SITE_NAME
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: '{slug}'
+  de652190-88bf-48ed-88fd-e247f5e7ab57: # $NL_SITE_NAME
+    enabledByDefault: true
+    hasUrls: true
+    template: null
+    uriFormat: '{slug}'
+structure:
+  maxLevels: null
+  uid: 37b711cb-07e5-49df-8a4b-c8afd18dc9cd
+type: structure

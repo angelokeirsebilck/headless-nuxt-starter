@@ -1,0 +1,137 @@
+field: efe60f4b-8305-42d0-8058-e9cc9d9be104 # Column
+fieldLayouts:
+  9fac5b7d-ecca-4630-8d88-fa3d312bd7b4:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 84e32c7a-df63-4579-b167-3a1cf186126a # Title Top
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1f9d523a-f0e0-45cf-b047-63c47fd89eb1
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 087eed5c-8386-49d1-b2c9-83da60e99756 # Title Spacing Bottom
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0c19204f-36c3-442f-8a7e-d93c85934c55
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: acaa599b-250b-4f2f-999c-fb025a99eb49 # Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: da2105e5-56c8-4210-8797-765146134f92
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 92f3207c-753d-46c4-b731-e3d97503c018
+        userCondition: null
+fields:
+  84e32c7a-df63-4579-b167-3a1cf186126a: # Title Top
+    columnSuffix: ocrwtdwl
+    contentColumnType: text
+    fieldGroup: null
+    handle: itemTitleTop
+    instructions: null
+    name: 'Title Top'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+  087eed5c-8386-49d1-b2c9-83da60e99756: # Title Spacing Bottom
+    columnSuffix: rulxplgt
+    contentColumnType: string(7)
+    fieldGroup: null
+    handle: itemTitleSpacingBottom
+    instructions: null
+    name: 'Title Spacing Bottom'
+    searchable: false
+    settings:
+      columnType: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Medium
+            -
+              - value
+              - medium
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Large
+            -
+              - value
+              - large
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  acaa599b-250b-4f2f-999c-fb025a99eb49: # Title
+    columnSuffix: zubzqiwi
+    contentColumnType: text
+    fieldGroup: null
+    handle: itemTitle
+    instructions: null
+    name: Title
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+handle: typeTitle
+name: Title
+sortOrder: 1

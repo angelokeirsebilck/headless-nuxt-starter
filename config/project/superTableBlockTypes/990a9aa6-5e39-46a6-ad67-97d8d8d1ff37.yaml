@@ -1,0 +1,41 @@
+changedFieldIndicator: 986976592
+field: b56eb3ea-0b5b-43bd-aa69-3aab5598f1eb # Default Columns
+fieldLayouts:
+  17fed7fc-396b-4dc4-8c73-460c309c411a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: efe60f4b-8305-42d0-8058-e9cc9d9be104 # Column
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 428f0232-1500-4804-bed4-806ec44176e3
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d871f781-b6b2-4e3d-af1f-c4ef2aa9a40d
+        userCondition: null
+fields:
+  efe60f4b-8305-42d0-8058-e9cc9d9be104: # Column
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemColumn
+    instructions: 'Media Overlap can only be used as the last content item and on columns with size 6/12.'
+    name: Column
+    searchable: false
+    settings:
+      contentTable: '{{%matrixcontent_itemcolumn}}'
+      maxBlocks: null
+      minBlocks: 1
+      propagationKeyFormat: null
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix

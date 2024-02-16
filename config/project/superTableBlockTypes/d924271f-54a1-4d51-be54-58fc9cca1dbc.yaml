@@ -1,0 +1,109 @@
+changedFieldIndicator: 438340622
+field: f4ef162b-91cb-4a53-ae99-326349ae346d # FAQ Content
+fieldLayouts:
+  e139cc97-4225-41ab-a46b-2cd98ffa9de4:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: bb05d6fb-9b4c-4cf8-a99f-620c3b5b928b # Question
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 29af592c-b96d-4b47-aba8-1f4cbad8a414
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ea513420-2c42-40cc-92a8-29facf424645 # Answer
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b0e91eb7-bd7b-458f-b294-694009244c69
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 75988fdb-d125-49a6-a45c-59431a613b73 # Links
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 491a50fd-2f68-4619-8c06-2d8d09ff72a2
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6d67e8f5-ee2f-491d-8842-280e6a36b032
+        userCondition: null
+fields:
+  75988fdb-d125-49a6-a45c-59431a613b73: # Links
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemLinks
+    instructions: null
+    name: Links
+    searchable: false
+    settings:
+      contentTable: '{{%matrixcontent_itemlinks_2}}'
+      maxBlocks: null
+      minBlocks: null
+      propagationKeyFormat: null
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix
+  bb05d6fb-9b4c-4cf8-a99f-620c3b5b928b: # Question
+    columnSuffix: wlphvrtt
+    contentColumnType: text
+    fieldGroup: null
+    handle: itemTitle
+    instructions: null
+    name: Question
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\PlainText
+  ea513420-2c42-40cc-92a8-29facf424645: # Answer
+    columnSuffix: otejxudy
+    contentColumnType: text
+    fieldGroup: null
+    handle: itemText
+    instructions: null
+    name: Answer
+    searchable: false
+    settings:
+      availableTransforms: ''
+      availableVolumes: '*'
+      ckeConfig: 8b8e734f-8752-481e-9aa9-fec95fe36ba6 # Default
+      columnType: text
+      defaultTransform: null
+      enableSourceEditingForNonAdmins: true
+      purifierConfig: null
+      purifyHtml: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      showWordCount: true
+      wordLimit: null
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\ckeditor\Field

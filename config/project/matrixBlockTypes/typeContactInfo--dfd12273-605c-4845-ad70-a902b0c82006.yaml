@@ -1,0 +1,51 @@
+field: efe60f4b-8305-42d0-8058-e9cc9d9be104 # Column
+fieldLayouts:
+  df3704f3-23f1-444e-a2e2-1fad387f3702:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: d676edd7-f583-4733-b387-a28a03f44e49 # Show Contact Info
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c8b642e5-9687-4cee-bcbb-c76b85a325b5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 9f035eb4-2003-4c03-872f-13aa4f8a6bdf
+        userCondition: null
+fields:
+  d676edd7-f583-4733-b387-a28a03f44e49: # Show Contact Info
+    columnSuffix: azwvbsvg
+    contentColumnType: string(16)
+    fieldGroup: null
+    handle: itemShowContactInfo
+    instructions: null
+    name: 'Show Contact Info'
+    searchable: false
+    settings:
+      columnType: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - 'Show Conntact Info'
+            -
+              - value
+              - showConntactInfo
+            -
+              - default
+              - '1'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+handle: typeContactInfo
+name: 'Contact Information'
+sortOrder: 6

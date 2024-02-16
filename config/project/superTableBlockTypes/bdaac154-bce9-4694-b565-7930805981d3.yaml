@@ -1,0 +1,108 @@
+changedFieldIndicator: 1929820322
+field: ac09d08c-f99f-4189-9839-124618c7cbba # Socials
+fieldLayouts:
+  6ffab6a9-ac22-4fce-8a6d-23ce422fe0da:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2c176c7c-cbd1-404a-9e1e-2a9f40a38036 # Facebook
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c7708798-92c7-44a1-9fd0-5650da138db3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4f4234a0-feb3-48dd-af6b-5176c0663bd4 # Instagram
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 637b5dc7-c674-4de7-a0b9-418bee738273
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e62530e7-343a-48dc-8fc0-044bf063ba88 # LinkedIn
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7ac36b67-1061-45f9-a712-10a7ab24f029
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 6e5f2b41-1eda-4e73-9787-9cf88d725ddb
+        userCondition: null
+fields:
+  2c176c7c-cbd1-404a-9e1e-2a9f40a38036: # Facebook
+    columnSuffix: waxytrpz
+    contentColumnType: text
+    fieldGroup: null
+    handle: itemFacebook
+    instructions: null
+    name: Facebook
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  4f4234a0-feb3-48dd-af6b-5176c0663bd4: # Instagram
+    columnSuffix: xahgsscc
+    contentColumnType: text
+    fieldGroup: null
+    handle: itemInstagram
+    instructions: null
+    name: Instagram
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  e62530e7-343a-48dc-8fc0-044bf063ba88: # LinkedIn
+    columnSuffix: urmuwmrw
+    contentColumnType: text
+    fieldGroup: null
+    handle: itemLinkedin
+    instructions: null
+    name: LinkedIn
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

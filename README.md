@@ -1,0 +1,1 @@
+# Headless Nuxt Starter

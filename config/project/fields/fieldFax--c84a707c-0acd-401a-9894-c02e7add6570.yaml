@@ -1,0 +1,19 @@
+columnSuffix: mqgsorjz
+contentColumnType: text
+fieldGroup: 58803170-ce11-4a84-9471-f8c853d3d8d5 # Common
+handle: fieldFax
+instructions: null
+name: Fax
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

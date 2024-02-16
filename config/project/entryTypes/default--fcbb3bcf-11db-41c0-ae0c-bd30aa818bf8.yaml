@@ -1,0 +1,107 @@
+fieldLayouts:
+  c41c23ed-98f3-4277-b043-b89bd7081984:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 8d8f1618-6180-48e6-a007-486211c5c4d9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 54e91831-4d64-4c95-ad62-98e533cf2419 # Thumbnail
+            instructions: null
+            label: 'Overview Thumbnail'
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 71b59143-966b-4aa9-9e43-ebd8e2bb3159
+            userCondition: null
+            warning: null
+            width: 25
+          -
+            elementCondition: null
+            fieldUid: 3304a635-4bfd-4914-a7ec-e8e82cdcfc34 # Image
+            instructions: null
+            label: 'Banner Image'
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 34452898-95d4-4053-b619-d3665ed86c8e
+            userCondition: null
+            warning: null
+            width: 25
+        name: General
+        uid: 32a6a7a5-0f74-4985-ba3a-65c2c6e560c7
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4f46c591-9460-4156-8c3d-635e0e7cb507 # Content Builder
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bfd88334-8147-48b0-a4d3-4804b4e49e64
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 999ccb36-2bba-4b03-b103-0fa88157c56b
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: f0be42fd-4945-4a3c-adcb-46dd667a26f4 # SEO
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 081e177e-c2e4-492a-ac1a-a38fb02c03b5
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: ec3113b8-cd42-43ca-beae-8252b0278ce2
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 79882761-2f8d-4f6d-bbaa-ebf32cce5bf8 # News Pages
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

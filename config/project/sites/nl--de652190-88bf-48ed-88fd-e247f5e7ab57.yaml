@@ -1,0 +1,9 @@
+baseUrl: '@nuxtUrl'
+enabled: true
+handle: nl
+hasUrls: true
+language: nl
+name: $NL_SITE_NAME
+primary: true
+siteGroup: 371b62a7-e041-4765-b26c-f72fad067dd9 # $GROUP_NAME
+sortOrder: 4

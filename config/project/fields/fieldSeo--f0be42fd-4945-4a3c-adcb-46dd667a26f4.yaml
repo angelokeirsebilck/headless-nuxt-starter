@@ -1,0 +1,23 @@
+columnSuffix: vybxvevg
+contentColumnType: text
+fieldGroup: 58803170-ce11-4a84-9471-f8c853d3d8d5 # Common
+handle: fieldSeo
+instructions: null
+name: SEO
+searchable: false
+settings:
+  elementDisplayPreviewType: google
+  facebookEnabledFields: ''
+  facebookTabEnabled: ''
+  generalEnabledFields:
+    - seoTitle
+    - seoDescription
+    - seoImage
+  generalTabEnabled: '1'
+  sitemapEnabledFields: ''
+  sitemapTabEnabled: ''
+  twitterEnabledFields: ''
+  twitterTabEnabled: ''
+translationKeyFormat: null
+translationMethod: site
+type: nystudio107\seomatic\fields\SeoSettings

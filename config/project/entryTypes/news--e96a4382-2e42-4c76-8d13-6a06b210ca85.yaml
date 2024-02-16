@@ -1,0 +1,83 @@
+fieldLayouts:
+  d33fc475-941e-4591-9814-5c03fc7545d5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 14549689-aa73-4804-9102-93354d120a52
+            userCondition: null
+            warning: null
+            width: 100
+        name: General
+        uid: 2cb2c387-26b3-4b54-b0fe-b2d5bf075050
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4f46c591-9460-4156-8c3d-635e0e7cb507 # Content Builder
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 45d9217e-8430-4338-97ef-9785c81adaf7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 92e4f0e2-3dd7-4e00-8636-c2e4237f4494
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: f0be42fd-4945-4a3c-adcb-46dd667a26f4 # SEO
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d5b16f0a-167d-4ffd-b289-205dd3c60ece
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: a47bd9ad-ee1f-4ab9-9e90-2d767ec31894
+        userCondition: null
+handle: news
+hasTitleField: true
+name: News
+section: 3ee04873-ac28-4e0e-a4d2-03304ab2bd99 # News
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

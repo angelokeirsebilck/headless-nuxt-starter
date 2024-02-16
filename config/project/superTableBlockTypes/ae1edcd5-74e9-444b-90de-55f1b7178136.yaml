@@ -1,0 +1,41 @@
+changedFieldIndicator: 1175471093
+field: 28c5424b-91bb-417d-b02d-2d1078ff798d # Cta
+fieldLayouts:
+  0d96fcfd-32e2-44b0-b939-9621e25df9bb:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2e207509-edb4-42c7-98ae-c740ee2ab3e8 # Cta Style
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 37e913d7-cb18-4270-91e1-41f0b4f8297d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: aab2d222-611c-4fbc-8936-3ac500e761ac
+        userCondition: null
+fields:
+  2e207509-edb4-42c7-98ae-c740ee2ab3e8: # Cta Style
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemCtaStyle
+    instructions: null
+    name: 'Cta Style'
+    searchable: false
+    settings:
+      contentTable: '{{%matrixcontent_itemctastyle}}'
+      maxBlocks: 1
+      minBlocks: 1
+      propagationKeyFormat: null
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix

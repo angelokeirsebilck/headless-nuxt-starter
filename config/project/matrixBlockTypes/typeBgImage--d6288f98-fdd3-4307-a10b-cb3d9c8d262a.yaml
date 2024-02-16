@@ -1,0 +1,183 @@
+field: 2e207509-edb4-42c7-98ae-c740ee2ab3e8 # Cta Style
+fieldLayouts:
+  83171e9d-537e-4418-8e1d-7bb6938c77ba:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: cc6608da-5d41-451f-bd59-ca1b77722afd # Cta
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8d1ab48c-4b84-489b-8b73-85191c15b740
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: 3f411632-a75a-4ece-99f8-62a38d73e6e8 # Background Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8e5be8e6-4f87-4c49-bbba-9ad0f432a12d
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            elementCondition: null
+            fieldUid: c4d477c9-ee68-4a2f-a226-aa085a9426eb # Cta Position
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5b6fcecb-f739-4f64-b198-4c1b0b867d58
+            userCondition: null
+            warning: null
+            width: 25
+        name: Content
+        uid: 20c20eb3-9aaf-45c8-b5d2-06dfed10bfb6
+        userCondition: null
+fields:
+  3f411632-a75a-4ece-99f8-62a38d73e6e8: # Background Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemBgImage
+    instructions: null
+    name: 'Background Image'
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds:
+        - JPG/JPEG
+      branchLimit: null
+      defaultUploadLocationSource: 'volume:8dae5110-8a0a-4593-9ddf-26d3225f6081' # Images
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: true
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:8dae5110-8a0a-4593-9ddf-26d3225f6081' # Images
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      sources:
+        - 'volume:8dae5110-8a0a-4593-9ddf-26d3225f6081' # Images
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  c4d477c9-ee68-4a2f-a226-aa085a9426eb: # Cta Position
+    columnSuffix: nldgvjpm
+    contentColumnType: string(6)
+    fieldGroup: null
+    handle: itemCtaPosition
+    instructions: null
+    name: 'Cta Position'
+    searchable: false
+    settings:
+      columnType: null
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Center
+            -
+              - value
+              - center
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Left
+            -
+              - value
+              - left
+            -
+              - default
+              - ''
+        -
+          __assoc__:
+            -
+              - label
+              - Right
+            -
+              - value
+              - right
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+  cc6608da-5d41-451f-bd59-ca1b77722afd: # Cta
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemCta
+    instructions: null
+    name: Cta
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      branchLimit: null
+      localizeRelations: false
+      maintainHierarchy: false
+      maxRelations: 1
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: false
+      sources:
+        - 'section:e6f21a54-5b02-4004-aab5-727af542f4cc' # Cta
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: typeBgImage
+name: 'Background Image'
+sortOrder: 2

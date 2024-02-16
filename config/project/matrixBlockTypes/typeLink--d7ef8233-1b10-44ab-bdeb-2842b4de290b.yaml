@@ -1,0 +1,174 @@
+field: 75988fdb-d125-49a6-a45c-59431a613b73 # Links
+fieldLayouts:
+  64ffd39a-fe97-40b7-ae94-2cc59506f30a:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 7f888855-23d2-4632-83d2-dfbc911368c0 # Link
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c68f9ce8-82ed-47e4-8fa3-2b026d3e3ae6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 11fc3297-fa02-4b2f-b5e8-193d9cb39319 # Link Style
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aa3164ea-f14b-4de7-826f-a6fc9f7653ef
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 776a1d86-72fd-475d-a848-8606fb04e85b
+        userCondition: null
+fields:
+  7f888855-23d2-4632-83d2-dfbc911368c0: # Link
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemLink
+    instructions: null
+    name: Link
+    searchable: false
+    settings:
+      allowCustomText: true
+      allowTarget: true
+      autoNoReferrer: true
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: entry
+      defaultText: ''
+      enableAllLinkTypes: false
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: true
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: true
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: site
+    type: lenz\linkfield\fields\LinkField
+  11fc3297-fa02-4b2f-b5e8-193d9cb39319: # Link Style
+    columnSuffix: sztupmat
+    contentColumnType: string
+    fieldGroup: null
+    handle: itemLinkStyle
+    instructions: null
+    name: 'Link Style'
+    searchable: false
+    settings:
+      columnType: string
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Default-Arrow
+            -
+              - value
+              - default-arrow
+            -
+              - default
+              - true
+        -
+          __assoc__:
+            -
+              - label
+              - Default
+            -
+              - value
+              - default
+        -
+          __assoc__:
+            -
+              - label
+              - 'Default White'
+            -
+              - value
+              - default-white
+        -
+          __assoc__:
+            -
+              - label
+              - 'Default Arrow White'
+            -
+              - value
+              - default-arrow-white
+        -
+          __assoc__:
+            -
+              - label
+              - Outline
+            -
+              - value
+              - outline
+        -
+          __assoc__:
+            -
+              - label
+              - 'Outline White'
+            -
+              - value
+              - outline-white
+        -
+          __assoc__:
+            -
+              - label
+              - Simple
+            -
+              - value
+              - simple
+    translationKeyFormat: null
+    translationMethod: none
+    type: custommodule\fields\ButtonStyle
+handle: typeLink
+name: Link
+sortOrder: 1

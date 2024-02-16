@@ -1,0 +1,37 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 58803170-ce11-4a84-9471-f8c853d3d8d5 # Common
+handle: fieldCtaContent
+instructions: null
+name: 'Cta Content'
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 1871184123
+  columns:
+    __assoc__:
+      -
+        - 65e1daa2-d20a-41e1-ab31-f3a1bed550b4 # Text
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 657e2a02-f0b4-4b17-b119-5df460380521 # Link
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_fieldctacontent}}'
+  fieldLayout: row
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: true
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField

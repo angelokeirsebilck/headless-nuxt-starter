@@ -1,0 +1,82 @@
+fieldLayouts:
+  0f46b4b9-d5ac-478c-85ce-034968124956:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: e8829ec2-6c9f-41df-a3f3-c32cab247c17
+            userCondition: null
+            warning: null
+            width: 100
+        name: General
+        uid: c14b64fa-7f3c-465b-9a03-08aaf0136822
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4f46c591-9460-4156-8c3d-635e0e7cb507 # Content Builder
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 51f696dd-cd8d-4b90-8fce-659120d03d11
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 5cb297e8-a732-4e8f-8db0-4b8db608deec
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: f0be42fd-4945-4a3c-adcb-46dd667a26f4 # SEO
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 655a548a-94d2-4021-9211-a51e74176952
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 1912a6b2-86cf-4713-87e3-fc5b6608112d
+        userCondition: null
+handle: home
+hasTitleField: false
+name: Home
+section: 2f55f360-211b-4361-bd20-5f6192447101 # Home
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

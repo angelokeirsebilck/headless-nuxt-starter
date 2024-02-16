@@ -1,0 +1,21 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 58803170-ce11-4a84-9471-f8c853d3d8d5 # Common
+handle: fieldSocials
+instructions: null
+name: Socials
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 150448233
+  contentTable: '{{%stc_fieldsocials}}'
+  fieldLayout: row
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: true
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField
