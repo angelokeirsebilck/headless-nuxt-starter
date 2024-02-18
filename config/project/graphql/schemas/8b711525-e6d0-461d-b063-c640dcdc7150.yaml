@@ -1,0 +1,11 @@
+isPublic: false
+name: 'Private Schema'
+scope:
+  - 'sites.d8d509d1-cc9a-4a61-a77b-7769e7ae3b57:read' # $EN_SITE_NAME
+  - 'sites.b6f6d186-5cd6-4c80-b9b4-79d4667ce02a:read' # $FR_SITE_NAME
+  - 'sites.051521b7-5574-4a7e-99b1-152a3e47f547:read' # $DE_SITE_NAME
+  - 'sites.de652190-88bf-48ed-88fd-e247f5e7ab57:read' # $NL_SITE_NAME
+  - 'formieSubmissions.all:edit'
+  - 'formieSubmissions.all:create'
+  - 'formieSubmissions.all:save'
+  - 'formieSubmissions.all:delete'

@@ -7,18 +7,6 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: 2d2ad8fe-d5b7-4656-86d0-9eed8bae29d3 # Small Text Container
-            instructions: null
-            label: null
-            required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 4c5ca7b6-fe36-4770-9127-ad5575d1bb6d
-            userCondition: null
-            warning: null
-            width: 25
-          -
-            elementCondition: null
             fieldUid: 5ee9f360-d849-4a80-890c-df615474d93f # Text
             instructions: null
             label: null
@@ -33,21 +21,6 @@ fieldLayouts:
         uid: 6f72168e-3c82-4bd9-8e6d-ac78b57c2444
         userCondition: null
 fields:
-  2d2ad8fe-d5b7-4656-86d0-9eed8bae29d3: # Small Text Container
-    columnSuffix: yzkjcsxu
-    contentColumnType: boolean
-    fieldGroup: null
-    handle: itemSmallText
-    instructions: null
-    name: 'Small Text Container'
-    searchable: false
-    settings:
-      default: false
-      offLabel: null
-      onLabel: null
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\Lightswitch
   5ee9f360-d849-4a80-890c-df615474d93f: # Text
     columnSuffix: znkoawgd
     contentColumnType: text

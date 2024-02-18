@@ -1,4 +1,4 @@
-dateModified: 1708110332
+dateModified: 1708252848
 elementSources:
   craft\elements\Entry:
     -
@@ -178,7 +178,6 @@ meta:
   __names__:
     1ffa87ab-8903-4fb7-b1a5-1f21b91cc1d8: 'Cta Link Style' # Cta Link Style
     2c176c7c-cbd1-404a-9e1e-2a9f40a38036: Facebook # Facebook
-    2d2ad8fe-d5b7-4656-86d0-9eed8bae29d3: 'Small Text Container' # Small Text Container
     2e207509-edb4-42c7-98ae-c740ee2ab3e8: 'Cta Style' # Cta Style
     2f55f360-211b-4361-bd20-5f6192447101: Home # Home
     3d95d134-283f-4bc4-86fc-dfd2e0ca9aac: 'Block Spacing Top' # Block Spacing Top
@@ -203,7 +202,7 @@ meta:
     8a19ab7e-05c9-4f56-8806-2b7866afdd95: 'Address Line 1' # Address Line 1
     8b8e734f-8752-481e-9aa9-fec95fe36ba6: Default # Default
     8b4698b0-5f92-4f09-8ef8-ba751d33a2a7: Default # Default
-    8c078cb7-793a-4aa1-92b8-e6354725b8f2: 'Block Spacing Top' # Block Spacing Top
+    8b711525-e6d0-461d-b063-c640dcdc7150: 'Private Schema' # Private Schema
     8dae5110-8a0a-4593-9ddf-26d3225f6081: Images # Images
     8fea37d7-2e11-4a6c-9da3-c655ac9c6134: VAT # VAT
     9bd85515-d13c-4f76-9def-f62d1468d9a4: Home # Home
@@ -221,7 +220,6 @@ meta:
     75e9e8b7-3d02-4fcd-bc85-dfb0ff2f5012: Link # Link
     84e32c7a-df63-4579-b167-3a1cf186126a: 'Title Top' # Title Top
     87ee9cbd-5579-4c17-910a-8f67c3b1a5d8: 'Block Spacing Bottom' # Block Spacing Bottom
-    087eed5c-8386-49d1-b2c9-83da60e99756: 'Title Spacing Bottom' # Title Spacing Bottom
     89fc2c4d-0d0d-47ff-8c69-0d6ea0f7567b: Columns # Columns
     92a9354a-97d8-44ee-8dd2-b3c737e333c9: Text # Text
     93bac026-581e-499f-b4d9-d484641311f1: Title # Title
@@ -230,7 +228,6 @@ meta:
     223de6d0-14f0-4b69-b8fc-ba91192f47e1: Text # Text
     371b62a7-e041-4765-b26c-f72fad067dd9: $GROUP_NAME # $GROUP_NAME
     657e2a02-f0b4-4b17-b119-5df460380521: Link # Link
-    672aea40-8bb7-4380-8e50-c063e223347a: 'Block Spacing Bottom' # Block Spacing Bottom
     766f05e5-a8c8-46ac-b46a-998c1a056262: 'Jobs Pages' # Jobs Pages
     953d1a64-6adc-4c6f-8fc3-3fe8580b4943: Logo # Logo
     975df658-8c6a-404a-a560-3cc90506daad: Form # Form
@@ -249,7 +246,6 @@ meta:
     58803170-ce11-4a84-9471-f8c853d3d8d5: Common # Common
     79882761-2f8d-4f6d-bbaa-ebf32cce5bf8: 'News Pages' # News Pages
     a0e95b30-fcd7-4d8c-a7f6-e40ed622cd69: Jobs # Jobs
-    a41af8b5-13a6-43d3-ac94-8838c4d857c9: 'Block Spacing Top' # Block Spacing Top
     ac09d08c-f99f-4189-9839-124618c7cbba: Socials # Socials
     acaa599b-250b-4f2f-999c-fb025a99eb49: Title # Title
     ad1e80b8-bd93-4f15-8eaf-a6179cedd873: E-mail # E-mail
@@ -263,12 +259,10 @@ meta:
     bb8dbf00-82ea-486b-8682-132d200340f8: General # General
     bc9b463d-3a73-4fc4-ba93-de317307def0: Jobs # Jobs
     c4d477c9-ee68-4a2f-a226-aa085a9426eb: 'Cta Position' # Cta Position
-    c7e642c0-a0c8-4ff8-ac70-675e60d60bcd: 'Block Spacing Bottom' # Block Spacing Bottom
     c30ac45f-642c-425f-87a6-8a7866949f5b: 'Link Style' # Link Style
     c84a707c-0acd-401a-9894-c02e7add6570: Fax # Fax
     c86c7ce2-a4a0-4c31-ace0-5949f5a82952: Default # Default
     c431e3a2-d632-45b8-9ba2-b696ca30151c: FAQ # FAQ
-    cad1852e-f580-4839-ad41-3a929fdb1815: 'Private Schema' # Private Schema
     cc6608da-5d41-451f-bd59-ca1b77722afd: Cta # Cta
     d7ef8233-1b10-44ab-bdeb-2842b4de290b: Link # Link
     d8d509d1-cc9a-4a61-a77b-7769e7ae3b57: $EN_SITE_NAME # $EN_SITE_NAME
@@ -278,13 +272,12 @@ meta:
     d4262ab8-0f8a-4ad9-871b-ac5df4bd47e5: Cta # Cta
     d6288f98-fdd3-4307-a10b-cb3d9c8d262a: 'Background Image' # Background Image
     d63996dc-0b3b-47b5-855a-f457d658802b: 'Terms and Conditions Page' # Terms and Conditions Page
-    d4133031-675c-4d11-b0ef-8a138eeb9ade: 'Block Spacing Top' # Block Spacing Top
     dd1a69d0-a361-489f-b127-40eea7bf5add: 'Company Info' # Company Info
     ddc2b656-1c7a-4188-9bfb-842744db5866: 'Background Color' # Background Color
+    de2df50a-ab50-4345-a7f9-848e3bc6bfd9: 'News Overview' # News Overview
     de652190-88bf-48ed-88fd-e247f5e7ab57: $NL_SITE_NAME # $NL_SITE_NAME
     df6e1645-929f-442c-978f-cf3efbef8e8a: 'Privacy Policy Page' # Privacy Policy Page
     dfd12273-605c-4845-ad70-a902b0c82006: 'Contact Information' # Contact Information
-    e0fb1cdb-e5bc-458f-9b4e-fef47c09b77f: 'Block Spacing Bottom' # Block Spacing Bottom
     e6f21a54-5b02-4004-aab5-727af542f4cc: Cta # Cta
     e9f860bb-c477-48d1-abc8-d8c18db847ed: 'Link Style' # Link Style
     e29eb16c-d5f1-4f49-91b9-919eeb452419: Default # Default
@@ -338,34 +331,34 @@ plugins:
                   - settings
                   -
                     __assoc__:
-                      0:
+                      -
                         - handle
                         - recaptcha
-                      1:
+                      -
                         - secretKey
                         - $RECAPTCHA_SECRET_KEY
-                      2:
+                      -
                         - siteKey
                         - $RECAPTCHA_SITE_KEY
-                      3:
+                      -
                         - type
                         - v3
-                      4:
+                      -
                         - size
                         - normal
-                      5:
+                      -
                         - theme
                         - light
-                      6:
+                      -
                         - badge
                         - bottomright
-                      7:
+                      -
                         - language
                         - en
-                      8:
+                      -
                         - minScore
                         - 0.5
-                      10:
+                      -
                         - scriptLoadingMethod
                         - asyncDefer
           -
@@ -385,22 +378,22 @@ plugins:
                   - settings
                   -
                     __assoc__:
-                      0:
+                      -
                         - handle
                         - hcaptcha
-                      3:
+                      -
                         - size
                         - normal
-                      4:
+                      -
                         - theme
                         - light
-                      5:
+                      -
                         - language
                         - en
-                      6:
+                      -
                         - minScore
                         - 0.5
-                      7:
+                      -
                         - scriptLoadingMethod
                         - asyncDefer
           -
@@ -420,10 +413,10 @@ plugins:
                   - settings
                   -
                     __assoc__:
-                      0:
+                      -
                         - handle
                         - friendlyCaptcha
-                      3:
+                      -
                         - language
                         - en
           -
@@ -443,10 +436,10 @@ plugins:
                   - settings
                   -
                     __assoc__:
-                      0:
+                      -
                         - handle
                         - turnstile
-                      3:
+                      -
                         - scriptLoadingMethod
                         - asyncDefer
           -
@@ -518,6 +511,25 @@ plugins:
       defaultInstructionsPosition: verbb\formie\positions\AboveInput
       defaultLabelPosition: verbb\formie\positions\AboveInput
       defaultPage: forms
+      disabledFields:
+        - verbb\formie\fields\formfields\Address
+        - verbb\formie\fields\formfields\Calculations
+        - verbb\formie\fields\formfields\Categories
+        - verbb\formie\fields\formfields\Date
+        - verbb\formie\fields\formfields\Group
+        - verbb\formie\fields\formfields\Heading
+        - verbb\formie\fields\formfields\Html
+        - verbb\formie\fields\formfields\Number
+        - verbb\formie\fields\formfields\Payment
+        - verbb\formie\fields\formfields\Password
+        - verbb\formie\fields\formfields\Recipients
+        - verbb\formie\fields\formfields\Repeater
+        - verbb\formie\fields\formfields\Section
+        - verbb\formie\fields\formfields\Signature
+        - verbb\formie\fields\formfields\Summary
+        - verbb\formie\fields\formfields\Table
+        - verbb\formie\fields\formfields\Tags
+        - verbb\formie\fields\formfields\Users
       emptyValuePlaceholder: 'No response.'
       enableBackSubmission: true
       enableCsrfValidationForGuests: true
@@ -534,6 +546,7 @@ plugins:
       saveSpam: true
       sendEmailAlerts: false
       sentNotifications: true
+      setOnlyCurrentPagePayload: false
       spamBehaviour: showSuccess
       spamBehaviourMessage: ''
       spamEmailNotifications: false
@@ -542,6 +555,61 @@ plugins:
       useQueueForIntegrations: true
       useQueueForNotifications: true
       validateCustomTemplates: true
+  image-resizer:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+    settings:
+      assetSourceSettings:
+        1:
+          __assoc__:
+            -
+              - enabled
+              - '1'
+            -
+              - imageWidth
+              - ''
+            -
+              - imageHeight
+              - ''
+            -
+              - imageQuality
+              - ''
+        2:
+          __assoc__:
+            -
+              - enabled
+              - ''
+            -
+              - imageWidth
+              - ''
+            -
+              - imageHeight
+              - ''
+            -
+              - imageQuality
+              - ''
+        3:
+          __assoc__:
+            -
+              - enabled
+              - ''
+            -
+              - imageWidth
+              - ''
+            -
+              - imageHeight
+              - ''
+            -
+              - imageQuality
+              - ''
+      enabled: false
+      imageHeight: 2560
+      imageQuality: 100
+      imageWidth: 2560
+      nonDestructiveCrop: false
+      nonDestructiveResize: false
+      skipLarger: true
   navigation:
     edition: standard
     enabled: true

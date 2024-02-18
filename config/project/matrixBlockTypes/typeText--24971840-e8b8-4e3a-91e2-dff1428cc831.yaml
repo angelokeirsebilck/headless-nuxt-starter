@@ -29,30 +29,6 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 25
-          -
-            elementCondition: null
-            fieldUid: a41af8b5-13a6-43d3-ac94-8838c4d857c9 # Block Spacing Top
-            instructions: null
-            label: null
-            required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 97281be7-0a07-4dc4-8fbe-b30be5b3489a
-            userCondition: null
-            warning: null
-            width: 25
-          -
-            elementCondition: null
-            fieldUid: c7e642c0-a0c8-4ff8-ac70-675e60d60bcd # Block Spacing Bottom
-            instructions: null
-            label: null
-            required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: ea9c5388-8bab-4514-9760-f4a5efbb68de
-            userCondition: null
-            warning: null
-            width: 25
         name: Content
         uid: 03b8a863-dc1a-432b-9f4f-bd0a5b8a1c7a
         userCondition: null
@@ -67,7 +43,7 @@ fields:
     searchable: false
     settings:
       blockTypeFields: 0
-      changedFieldIndicator: 235215168
+      changedFieldIndicator: 1604629868
       columns:
         __assoc__:
           -
@@ -102,120 +78,6 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: verbb\supertable\fields\SuperTableField
-  a41af8b5-13a6-43d3-ac94-8838c4d857c9: # Block Spacing Top
-    columnSuffix: opwlmtqe
-    contentColumnType: string
-    fieldGroup: null
-    handle: itemBlockSpacingTop
-    instructions: null
-    name: 'Block Spacing Top'
-    searchable: false
-    settings:
-      columnType: string
-      options:
-        -
-          __assoc__:
-            -
-              - label
-              - Default
-            -
-              - value
-              - default
-            -
-              - default
-              - true
-        -
-          __assoc__:
-            -
-              - label
-              - 'Extra Small'
-            -
-              - value
-              - extraSmall
-        -
-          __assoc__:
-            -
-              - label
-              - Small
-            -
-              - value
-              - small
-        -
-          __assoc__:
-            -
-              - label
-              - Large
-            -
-              - value
-              - large
-        -
-          __assoc__:
-            -
-              - label
-              - Zero
-            -
-              - value
-              - zero
-    translationKeyFormat: null
-    translationMethod: none
-    type: custommodule\fields\BlockSpacing
-  c7e642c0-a0c8-4ff8-ac70-675e60d60bcd: # Block Spacing Bottom
-    columnSuffix: lblyultb
-    contentColumnType: string
-    fieldGroup: null
-    handle: itemBlockSpacingBottom
-    instructions: null
-    name: 'Block Spacing Bottom'
-    searchable: false
-    settings:
-      columnType: string
-      options:
-        -
-          __assoc__:
-            -
-              - label
-              - Default
-            -
-              - value
-              - default
-            -
-              - default
-              - true
-        -
-          __assoc__:
-            -
-              - label
-              - 'Extra Small'
-            -
-              - value
-              - extraSmall
-        -
-          __assoc__:
-            -
-              - label
-              - Small
-            -
-              - value
-              - small
-        -
-          __assoc__:
-            -
-              - label
-              - Large
-            -
-              - value
-              - large
-        -
-          __assoc__:
-            -
-              - label
-              - Zero
-            -
-              - value
-              - zero
-    translationKeyFormat: null
-    translationMethod: none
-    type: custommodule\fields\BlockSpacing
   ddc2b656-1c7a-4188-9bfb-842744db5866: # Background Color
     columnSuffix: pkxaoacb
     contentColumnType: string

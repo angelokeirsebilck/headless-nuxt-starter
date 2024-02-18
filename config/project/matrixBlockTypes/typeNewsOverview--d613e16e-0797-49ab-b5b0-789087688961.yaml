@@ -7,25 +7,13 @@ fieldLayouts:
         elements:
           -
             elementCondition: null
-            fieldUid: d4133031-675c-4d11-b0ef-8a138eeb9ade # Block Spacing Top
+            fieldUid: de2df50a-ab50-4345-a7f9-848e3bc6bfd9 # News Overview
             instructions: null
             label: null
             required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: e33c057b-122c-4c80-9f7a-3974f52905b8
-            userCondition: null
-            warning: null
-            width: 25
-          -
-            elementCondition: null
-            fieldUid: e0fb1cdb-e5bc-458f-9b4e-fef47c09b77f # Block Spacing Bottom
-            instructions: null
-            label: null
-            required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: d795dda4-0826-4ef0-9b4a-4addea5664b2
+            uid: 1e3d1411-4fae-4d26-8ed8-ecf634fbce78
             userCondition: null
             warning: null
             width: 25
@@ -33,120 +21,31 @@ fieldLayouts:
         uid: b19bf4e9-f473-4ff3-acda-7b63e8f6efe8
         userCondition: null
 fields:
-  d4133031-675c-4d11-b0ef-8a138eeb9ade: # Block Spacing Top
-    columnSuffix: bwzfsick
-    contentColumnType: string
+  de2df50a-ab50-4345-a7f9-848e3bc6bfd9: # News Overview
+    columnSuffix: rtwalunb
+    contentColumnType: string(12)
     fieldGroup: null
-    handle: itemBlockSpacingTop
+    handle: itmeNewsOverview
     instructions: null
-    name: 'Block Spacing Top'
+    name: 'News Overview'
     searchable: false
     settings:
-      columnType: string
+      columnType: null
       options:
         -
           __assoc__:
             -
               - label
-              - Default
+              - 'News Overview'
             -
               - value
+              - newsOverview
+            -
               - default
-            -
-              - default
-              - true
-        -
-          __assoc__:
-            -
-              - label
-              - 'Extra Small'
-            -
-              - value
-              - extraSmall
-        -
-          __assoc__:
-            -
-              - label
-              - Small
-            -
-              - value
-              - small
-        -
-          __assoc__:
-            -
-              - label
-              - Large
-            -
-              - value
-              - large
-        -
-          __assoc__:
-            -
-              - label
-              - Zero
-            -
-              - value
-              - zero
+              - '1'
     translationKeyFormat: null
     translationMethod: none
-    type: custommodule\fields\BlockSpacing
-  e0fb1cdb-e5bc-458f-9b4e-fef47c09b77f: # Block Spacing Bottom
-    columnSuffix: qztmxprm
-    contentColumnType: string
-    fieldGroup: null
-    handle: itemBlockSpacingBottom
-    instructions: null
-    name: 'Block Spacing Bottom'
-    searchable: false
-    settings:
-      columnType: string
-      options:
-        -
-          __assoc__:
-            -
-              - label
-              - Default
-            -
-              - value
-              - default
-            -
-              - default
-              - true
-        -
-          __assoc__:
-            -
-              - label
-              - 'Extra Small'
-            -
-              - value
-              - extraSmall
-        -
-          __assoc__:
-            -
-              - label
-              - Small
-            -
-              - value
-              - small
-        -
-          __assoc__:
-            -
-              - label
-              - Large
-            -
-              - value
-              - large
-        -
-          __assoc__:
-            -
-              - label
-              - Zero
-            -
-              - value
-              - zero
-    translationKeyFormat: null
-    translationMethod: none
-    type: custommodule\fields\BlockSpacing
+    type: craft\fields\Dropdown
 handle: typeNewsOverview
 name: 'News overview'
 sortOrder: 4

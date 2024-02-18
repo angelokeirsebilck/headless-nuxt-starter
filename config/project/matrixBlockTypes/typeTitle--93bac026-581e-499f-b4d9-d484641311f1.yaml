@@ -19,18 +19,6 @@ fieldLayouts:
             width: 50
           -
             elementCondition: null
-            fieldUid: 087eed5c-8386-49d1-b2c9-83da60e99756 # Title Spacing Bottom
-            instructions: null
-            label: null
-            required: true
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 0c19204f-36c3-442f-8a7e-d93c85934c55
-            userCondition: null
-            warning: null
-            width: 50
-          -
-            elementCondition: null
             fieldUid: acaa599b-250b-4f2f-999c-fb025a99eb49 # Title
             instructions: null
             label: null
@@ -65,53 +53,6 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\fields\PlainText
-  087eed5c-8386-49d1-b2c9-83da60e99756: # Title Spacing Bottom
-    columnSuffix: rulxplgt
-    contentColumnType: string(7)
-    fieldGroup: null
-    handle: itemTitleSpacingBottom
-    instructions: null
-    name: 'Title Spacing Bottom'
-    searchable: false
-    settings:
-      columnType: null
-      options:
-        -
-          __assoc__:
-            -
-              - label
-              - Default
-            -
-              - value
-              - default
-            -
-              - default
-              - '1'
-        -
-          __assoc__:
-            -
-              - label
-              - Medium
-            -
-              - value
-              - medium
-            -
-              - default
-              - ''
-        -
-          __assoc__:
-            -
-              - label
-              - Large
-            -
-              - value
-              - large
-            -
-              - default
-              - ''
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\Dropdown
   acaa599b-250b-4f2f-999c-fb025a99eb49: # Title
     columnSuffix: zubzqiwi
     contentColumnType: text
