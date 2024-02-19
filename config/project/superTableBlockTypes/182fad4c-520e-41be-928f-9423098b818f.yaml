@@ -1,4 +1,4 @@
-changedFieldIndicator: 1566544023
+changedFieldIndicator: 1532623455
 field: 89fc2c4d-0d0d-47ff-8c69-0d6ea0f7567b # Columns
 fieldLayouts:
   e1750ccb-7994-4b7d-b21f-423014d3eedd:
@@ -39,6 +39,18 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             uid: cafb251c-9b04-4a51-8f25-0666511fc4ee
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ac1902a5-0ea1-46ee-868f-16d8229736a6 # Test
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9ae32481-d8a3-4fbc-bc5b-50e5a8cc62f8
             userCondition: null
             warning: null
             width: 100
@@ -107,3 +119,23 @@ fields:
     translationKeyFormat: null
     translationMethod: site
     type: craft\ckeditor\Field
+  ac1902a5-0ea1-46ee-868f-16d8229736a6: # Test
+    columnSuffix: bdsmnirk
+    contentColumnType: text
+    fieldGroup: null
+    handle: itemTest
+    instructions: null
+    name: Test
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
